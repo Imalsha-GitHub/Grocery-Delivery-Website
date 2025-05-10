@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { assets } from '../assets/assets.js'
 
 const Navbar = () => {
     const [open, setOpen] = React.useState(false)
